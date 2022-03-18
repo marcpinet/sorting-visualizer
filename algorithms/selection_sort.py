@@ -10,3 +10,5 @@ def sort(array: list[int]):
                 yield array, [array[i], array[j]]
             
         array[i], array[min_idx] = array[min_idx], array[i]
+
+    yield array, []
